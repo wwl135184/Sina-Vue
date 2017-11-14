@@ -1,0 +1,10 @@
+@charset "utf-8";
+body, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, html, li, map, ol, p, pre, table, td, th, ul{margin: 0;padding: 0;}
+img{border: 0;}
+a{text-decoration: none;color: #666;}
+li{list-style: none;}
+input{ border: 0; outline: none;}
+em{font-style: normal;}
+i{font-style: inherit}
+.clear:after{ content: "."; clear: both; overflow: hidden; display: block;height: 0; visibility: hidden;}
+.clear{ zoom: 1;}

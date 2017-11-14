@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<script type="text/javascript">
+			window.onload = function(){
+           		getRem(2342,100);
+        	}
+	        window.onresize = function(){
+	            getRem(2342,100);
+	        }
+	        function getRem(pwidth,prem){
+	            var html = document.getElementsByTagName("html")[0];
+	            var oWidth = document.body.clientWidth || document.documentElement.clientWidth;
+	            html.style.fontSize = oWidth/pwidth*prem + "px";
+	        }
+	    </script>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div id="index"></div>
+		<script src="bundle.js"></script>
+	</body>
+</html>
